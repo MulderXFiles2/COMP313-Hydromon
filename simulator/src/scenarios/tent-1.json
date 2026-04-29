@@ -1,0 +1,11 @@
+{
+  "_comment":"Scenario configuration for a simulated location and associated sensor bank (e.g., tent-1)",
+  "deviceId": "tent-1",
+  "publishIntervalMs": 5000,
+  "sensors": {
+    "ph": 6.1,
+    "ec": 1.8,
+    "waterTempC": 19.5,
+    "humidityPct": 55
+  }
+}

@@ -1,0 +1,101 @@
+.ardp {
+  min-height: 100vh;
+  background: #0d1117;
+  color: #e2e8f0;
+  font-family: 'IBM Plex Mono', 'Fira Code', monospace;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ardp-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.ardp-back:hover {
+  color: #4ade80;
+}
+
+.ardp-title {
+  color: #f1f5f9;
+  margin-bottom: 1.5rem;
+}
+
+.ardp-error {
+  color: #f87171;
+  margin-bottom: 1rem;
+}
+
+.ardp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: #161b22;
+  border: 1px solid #1e2d3d;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.ardp-label {
+  color: #9ca3af;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ardp-input,
+.ardp-textarea {
+  background: #0d1117;
+  color: #f1f5f9;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-family: inherit;
+}
+
+.ardp-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.ardp-checkbox-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: #e2e8f0;
+}
+
+.ardp-delivery-hint {
+  margin: -0.2rem 0 0;
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
+
+.ardp-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.ardp-save,
+.ardp-delete {
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.ardp-save {
+  background: #4ade80;
+  color: #0d1117;
+  font-weight: 700;
+}
+
+.ardp-delete {
+  background: #7f1d1d;
+  color: #fecaca;
+}

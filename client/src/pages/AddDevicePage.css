@@ -1,0 +1,98 @@
+.adp-page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255,255,255,0.87);
+}
+
+.adp-back {
+  display: inline-block;
+  font-size: 0.82rem;
+  color: #6b7280;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+.adp-back:hover { color: #646cff; }
+
+.adp-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.adp-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  color: rgba(255,255,255,0.87);
+}
+.adp-subtitle {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0 0 1.5rem;
+}
+
+.adp-error {
+  background: rgba(248,113,113,0.1);
+  border: 1px solid rgba(248,113,113,0.3);
+  color: #f87171;
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.82rem;
+  margin-bottom: 1.25rem;
+}
+
+.adp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.adp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.adp-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.6);
+}
+.adp-required { color: #646cff; }
+.adp-input {
+  background: #242424;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: rgba(255,255,255,0.87);
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.55rem 0.8rem;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  width: 100%;
+}
+.adp-input:focus { border-color: #646cff; }
+.adp-input::placeholder { color: #4b5563; }
+.adp-hint {
+  font-size: 0.72rem;
+  color: #4b5563;
+}
+
+.adp-submit {
+  margin-top: 0.5rem;
+  padding: 0.65rem;
+  border: none;
+  border-radius: 6px;
+  background: #646cff;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.adp-submit:hover:not(:disabled) { background: #535bf2; }
+.adp-submit:disabled { opacity: 0.45; cursor: not-allowed; }

@@ -1,0 +1,30 @@
+.dashboard-page {
+  min-height: calc(100vh - 60px);
+  padding: 2rem 1.5rem 3rem;
+  background: transparent;
+}
+
+.dashboard-page h1 {
+  margin: 0 0 2rem;
+  text-align: center;
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  color: #f8fafc;
+}
+
+.device-status {
+  width: 100%;
+}
+
+.dashboard-status {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.dashboard-status--error {
+  color: #fca5a5;
+}
